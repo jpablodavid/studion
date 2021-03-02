@@ -1,0 +1,27 @@
+{
+  "name": "studion",
+  "version": "0.0.1",
+  "description": "Homepage Studion, curso imagineOn",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpablodavid/studion.git"
+  },
+  "keywords": [
+    "Html",
+    "css",
+    "JavaScript"
+  ],
+  "author": "Pablo David",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpablodavid/studion/issues"
+  },
+  "homepage": "https://github.com/jpablodavid/studion#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
