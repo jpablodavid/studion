@@ -4,24 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Studion</title>
 </head>
 
 <body>
     <nav class="navbar">
-        <h1 class="logo-studion">
-            Studi<span class="copy--primary">on</span>
-            <span class="logo-studion__subtitle">Eventos</span>
-        </h1>
+        <div class="container navbar__container">
+            <h1 class="logo-studion">
+                Studi<span class="copy--primary">on</span>
+                <span class="logo-studion__subtitle">Eventos</span>
+            </h1>
 
-        <ul class="navbar__links">
-            <li><a href="#empresa">Empresa</a></li>
-            <li><a href="#eventos">Eventos</a></li>
-            <li><a href="#Galeria">Galeria</a></li>
-            <li><a href="#depoimentos">Depoimentos</a></li>
-            <li><a href="#contatos">Contatos</a></li>
-        </ul>
+            <ul class="navbar__links">
+                <li><a href="#empresa">Empresa</a></li>
+                <li><a href="#eventos">Eventos</a></li>
+                <li><a href="#Galeria">Galeria</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+            </ul>
+        </div>
     </nav>
 
     <header>
@@ -40,17 +42,32 @@
     </header>
 
     <main>
-        <section>
-            <ul>
-                <li><h3>+ de 500 </h3>eventos realizados</li>
-                <li><h3>+ de 1.000.000 </h3>de ingressos vendidos</li>
-                <li><h3>+ de 300 </h3>empresas atendidas</li>
+        <section id="counter">
+            <ul class="container counter__container">
+                <li>
+                    <h3>
+                        + de 500 
+                        <small>eventos realizados</small>
+                     </h3>
+                </li>
+                <li>
+                    <h3>
+                        + de 1.000.000 
+                        <small>de ingressos vendidos</small>
+                    </h3>
+                </li>
+                <li>
+                    <h3>
+                        + de 300 
+                        <small>empresas atendidas</small>
+                    </h3>
+                </li>
             </ul>
         </section>
 
-        <section>
-            <div>
-                <img src="./images/institutional.jpg" alt="">
+        <section class="container institutional">
+            <img class="institutional__image" src="./images/institutional.jpg" alt="Studion institutional">
+            <div class="institutional__copy">
                 <h6> Fazendo seu evento acontecer</h6>
                    
                 <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -60,7 +77,7 @@
                 A velit nostrum similique ut aliquam adipisci inventore ullam, unde deserunt, tempora optio reprehenderit sed et at? Earum expedita iure saepe. Aspernatur.
                 </p>
 
-                <button>saiba mais</button>
+                <button class="btn btn--institutional">saiba mais</button>
             </div>
         </section>
 
