@@ -1,0 +1,28 @@
+.hero__copy span {
+    font-size: .9375rem;
+    letter-spacing: .18rem;
+    line-height: 1.125rem;
+    color:var(--color-primary);
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+}
+
+.gallery {
+    background-color:black;   
+}
+
+.gallery__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10rem 0;
+}
+
+.gallery ul {
+    display: inline;
+    line-height: 4.6875rem;
+}
+
+.gallery img {
+    width: 15.9375rem;   
+}
