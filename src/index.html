@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
     <link rel="stylesheet" href="./style.css">
     <title>Studion</title>
 </head>
@@ -27,13 +29,35 @@
     </nav>
 
     <header>
-        <div id="slider">
+        <div class="slider">
             <div class="slide">
                 <img class="slide__background-image" src="./images/banner.jpg" alt="Studion banner">
                 <div class="slide__copy">
                     <h6><span class="copy--primary">Próximo evento</span> - Dia 25 de setembro às 19h</h6>
                     
                     <h2><span class="copy--primary">Creative</span>Minds</h2>
+
+                    <button class="btn btn--slide">Saiba mais</button>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img class="slide__background-image" src="./images/banner2.jpg" alt="Studion banner">
+                <div class="slide__copy">
+                    <h6><span class="copy--primary">Próximo evento</span> - Dia 25 de setembro às 19h</h6>
+                    
+                    <h2><span class="copy--primary">FEST</span>FORWARDS</h2>
+
+                    <button class="btn btn--slide">Saiba mais</button>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img class="slide__background-image" src="./images/banner3.jpg" alt="Studion banner">
+                <div class="slide__copy">
+                    <h6><span class="copy--primary">Próximo evento</span> - Dia 25 de setembro às 19h</h6>
+                    
+                    <h2><span class="copy--primary">SHOW</span>EVENT</h2>
 
                     <button class="btn btn--slide">Saiba mais</button>
                 </div>
@@ -107,7 +131,7 @@
                 <div class="footer__form__email">
                     <input id="email" type="email" placeholder="email">
     
-                    <button type="submit">
+                    <button class="footer__form-button" type="submit">
                         <i class="fas fa-paper-plane fa-2x"></i>
                     </button>
                 </div>
@@ -140,6 +164,16 @@
             <small>Studi<span class="copy--primary">ON</span> - Todos os direitos resevados.</small>
         </p>
     </footer>
+    
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <script src="./script.js"></script>
+    
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
 </body>
 </html>
