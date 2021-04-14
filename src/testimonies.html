@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studion</title>
+    <link rel="stylesheet" href="../slick/slick.min.css"/>
+    <link rel="stylesheet" href="../slick/slick-theme.min.css"/>
     <link rel="stylesheet" href="./style.css" />
   </head>
 
@@ -19,10 +21,10 @@
         </a>
         </h1>
         <ul class="navbar__links">
-          <li><a class="active" href="./enterprise.html">Empresa</a></li>
+          <li><a href="./company.html">Empresa</a></li>
           <li><a href="./events.html">Eventos</a></li>
           <li><a href="./gallery.html">Galeria</a></li>
-          <li><a href="./testimonies.html">Depoimentos</a></li>
+          <li><a class="active" href="./testimonies.html">Depoimentos</a></li>
           <li><a href="./contact.html">Contato</a></li>
         </ul>
       </div>
@@ -30,10 +32,11 @@
 
     <header>
       <div class="hero">
-        <img class="hero__background" src="./images/company-hero.jpg" alt="" />
+        <img class="hero__background" src="./images/testimonies.jpg" alt="" />
         <div class="container hero__container">
           <div class="hero__copy">
-            <h2>.empresa</h2>
+            <h3>o que falam sobre nós</h3>
+            <h2>.depoimentos</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae dolore magni soluta nemo rerum quaerat ea! Temporibus, accusantium dignissimos quasi vitae ab, animi error iusto nobis, velit consequatur aut cum?</p>
           </div>
         </div>
@@ -42,27 +45,52 @@
 
     <main>
 
-      <section class="container phone__call">
-          <div class="phone__call__text">
-            <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, eligendi. Veniam eveniet ratione autem? Distinctio debitis laboriosam a natus odio sed sequi ut exercitationem fugit incidunt. Commodi quibusdam magni tenetur?</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate maiores similique sed vitae ex laborum possimus praesentium quis, consequuntur, ut maxime repudiandae optio quia molestias adipisci accusamus repellendus tempora. Recusandae? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi dolorum odit nulla doloremque dignissimos asperiores culpa optio amet non quis eum, aspernatur sed, molestiae voluptatem labore cupiditate odio explicabo commodi.</p>
-          </div>
-          <div>
-            <img src="./images/company-man.png" alt="">
-          </div>
-      </section>
+      <section class="testimonies__background">
 
-      <section class="logo__list">
-        <div class="container">
-          <h3>Quem confia no nosso trabalho</h3>
-          <img src="./images/company-list.png" alt="">
+        <div class="container testimonies__slider">
+          
+        <div class="testimonies__slider__div">
+          <div class="testimonies__slider__content">
+            <img class="testimonies__photo" src="./images/testimonies-alberto-saldanha.png" alt="">
+            <h2>Alberto Saldanha
+              <span>
+                CEO - Vitamusic
+              </span>
+            </h2>
+            <h4>“</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos veniam assumenda ducimus tempore, minus non laboriosam nesciunt dicta dolorem dignissimos optio molestias nulla accusantium veritatis voluptatum voluptatem quod suscipit tenetur.</p>
+          </div>
         </div>
+
+        <div class="testimonies__slider__div">
+          <div class="testimonies__slider__content">
+            <img class="testimonies__photo" src="./images/testimonies-mariana-bastos.jpg" alt="">
+            <h2>Mariana Bastos
+              <span>
+                Prod de Eventos - +Mídia
+              </span>
+            </h2>
+            <h4>“</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos veniam assumenda ducimus tempore, minus non laboriosam nesciunt dicta dolorem dignissimos optio molestias nulla accusantium veritatis voluptatum voluptatem quod suscipit tenetur.</p>
+          </div>
+        </div>
+
+        <div class="testimonies__slider__div">
+          <div class="testimonies__slider__content">
+            <img class="testimonies__photo" src="./images/testimonies-guilherme-silva.jpg" alt="">
+            <h2>Guilherme Silva
+              <span>
+                Gerente de Marketing - CoMusic
+              </span>
+            </h2>
+            <h4>“</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos veniam assumenda ducimus tempore, minus non laboriosam nesciunt dicta dolorem dignissimos optio molestias nulla accusantium veritatis voluptatum voluptatem quod suscipit tenetur.</p>
+          </div>
+        </div>
+
+      </div>
       </section>
 
-      <section class="container youtube__iframe">
-          <iframe src="https://www.youtube.com/watch?v=yo4pmauhugo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </section>
     </main>
 
     <footer class="footer">
@@ -104,6 +132,10 @@
           >
         </p>
       </div>
+      <script defer src="./jquery-3.6.0.min.js"></script>
+      <script defer src="./jquery-migrate-1.4.1.min.js"></script>
+      <script defer src="../slick/slick.min.js"></script>
+      <script defer src="./script.js"></script>
     </footer>
   </body>
 </html>

@@ -1,0 +1,48 @@
+.phone__call {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 3rem 0 0 3rem;
+}
+
+.phone__call__text h2 {
+    width: 30ch;
+    padding: 2rem 0;
+}
+
+.phone__call__text p {
+    font-family: "Roboto";
+    width: 43ch;
+    font-size: 1.0625rem;
+    line-height: 1.7rem;
+}
+
+.phone__call img {
+    height: 100%;
+}
+
+.logo__list {
+    min-height: 500px;
+    padding: 2rem 2rem;
+    background-color: var(--color-primary);
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.5625rem;
+    line-height: 8rem;
+}
+
+.logo__list h3 {
+    margin: 0;
+}
+
+.youtube__iframe {
+    height: 90vh;
+}
+
+.youtube__iframe iframe {
+    padding: 5rem;
+    width: 100%;
+    height: 100%;
+}
+
+

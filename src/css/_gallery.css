@@ -1,0 +1,23 @@
+.gallery {
+    padding: 9rem 0;
+    min-height: 120vh;
+    background-color: #000;
+}
+
+.gallery__container {
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 2rem;
+}
+
+.gallery__container__row {
+    display: grid;
+    grid-template-rows: auto;
+    grid-row-gap: 2rem;
+    align-content: start;
+}
+
+.gallery__container__row img {
+    width: 100%;
+}

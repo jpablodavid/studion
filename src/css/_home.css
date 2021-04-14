@@ -74,6 +74,7 @@
 /* desktop */
 @media screen and (min-width: 1280px) {
     .slide__copy {
+       
         padding-left: 50vw;
         text-align: unset;
     }
@@ -83,12 +84,13 @@
     }
 }
 
+/* mobile */
 .slide__copy h6 {
-    font-size: .9375rem;
+    font-size: .475rem;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.1875rem;
-    margin: 0;
+    margin-top: 150px;
 }
 
 /* mobile */
@@ -103,6 +105,11 @@
     .slide__copy h2 {
         font-size: 6.25rem;
         line-height: 6.25rem;
+    }
+
+    .slide__copy h6 {
+        font-size: .9375rem;
+        margin-top: 100px;
     }
 }
 
