@@ -17,11 +17,6 @@ $(document).ready(() => {
     };
     $('.slider').slick(slickOptions);
 
-    const counterOptions = {
-        delay: 10,
-        time: 1000,
-    };
-
     setInterval(() => {
         const numbersCollection = document.querySelectorAll(".counter__number");
 
@@ -30,6 +25,11 @@ $(document).ready(() => {
             number.innerHTML = cuurentNumber + 1;
         });
     }, 1000);
+
+    const counterOptions = {
+        delay: 10,
+        time: 1000,
+    };
 
     $(".counter__number").counterUp(counterOptions);
 

@@ -1,41 +1,37 @@
-.testimonies__background {
+.testimonies {
     background-color: var(--color-primary);
-    min-height: 95vh;
-    color: #000;
+    color: black;
+    height: 100vh;
 }
 
-.testimonies__slider__content {
-    display: grid;
-    justify-items: center;
-    padding: 5rem 0;
+
+.testimonies__slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
-.testimonies__slider__div h2,
-.testimonies__slider__div h3,
-.testimonies__slider__div h4,
-.testimonies__slider__div p {
-    margin: unset;
+.testimonies__photo{
+    margin: 30px;
+    width: 18.75rem;
 }
 
-.testimonies__slider__div h2 {
+.testimonies__slide h2 {
     font-size: 3.125rem;
+    text-align: right;
 }
 
-.testimonies__slider__div h2 span {
+.testimonies__slide h2 span {
     display: block;
-    text-align: right;
     font-size: 0.875rem;
     font-weight: 600;
     letter-spacing: 0.15rem;
 }
 
-.testimonies__slider__div h4 {
-    font-size: 5.25rem;
-    font-weight: 900;
-}
 
-.testimonies__slider__div p {
+.testimonies__slide p {
     width: 80ch;
-    text-align: center;
     line-height: 2rem;
+    margin: 0;
 }
